@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <style>
+        body{
+              margin: 0;
+	  padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(162,162,168,1);
+            }
+        .text{
+          position: absolute;
+    right: 0;
+    top:10px;
+    margin: auto;
+    left:45%;
+
+    font-family: Candara;
+	font-style: normal;
+	font-size: 30px;
+    font-weight: bold;
+    color:rgba(4,12,67,1);
+        }
+    .img{
+      position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 800px;
+	height: 400px;
+    }
+    .Rectangle_3_Class {
+	fill: rgba(19, 19, 63, 1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+  margin: auto;
+  width: 100%;
+	height:112px;
+	left: 0px;
+	top: 0px;
+}
+.Attendance__monitor_Class {
+	left: 45px;
+	top: 28px;
+	position: absolute;
+	overflow: visible;
+	width: 464px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Candara;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(112,112,112,1);
+	text-transform: uppercase;
+  margin: auto;
+}
+
+    </style>
+        <svg class="Rectangle_3">
+          <rect class="Rectangle_3_Class" rx="0" ry="0" x="0" y="0" width="1920" height="112">
+          </rect>
+        </svg>
+        <div class="Attendance__monitor_Class">
+          <span>Attendance  monitor</span>
+        </div>    
+    <div class='img'>
+
+        <img src="{{ url_for('video_feed') }}" width="700" height="500"/>
+    </div>
+ 
+    </body>
+
+
+</html>

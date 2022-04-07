@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+	padding: 0;
+    height: 100vh;
+    overflow: hidden;
+	background: linear-gradient(359.6deg, rgba(1,0,55,1) 0%, rgba(56,56,79,1) 100%);
+	
+}
+::placeholder{
+    color: rgba(4,12,67,1);
+}
+.Rect_1{
+    fill: rgba(162,162,168,1);
+	
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	height: 616px;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+.logo2x_Class{
+    mix-blend-mode:multiply;
+    position: absolute;
+	overflow: visible;
+    left: 0;
+    right:0;
+    top:10%;
+   
+    margin: auto;
+
+}
+.ADMIN_LOGIN_Class {
+	left: 531px;
+	top: 257px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+    left: 0;
+    right:0;
+    top:25%;
+    margin: auto;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Candara;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 33px;
+	color: rgba(4,12,67,1);
+}
+.Line_1_Class {
+	fill: transparent;
+	stroke: rgba(4,12,67,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 342px;
+	height: 19px;
+	left:0;
+    right: 0;
+    margin: auto;
+	top: 350px;
+    margin: auto;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_2_Class {
+	fill: transparent;
+	stroke: rgba(4,12,67,1);
+	stroke-width: 1.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 342px;
+	height: 19px;
+	left:0;
+    right: 0;
+    margin: auto;
+	top: 440px;
+    margin: auto;
+    
+	transform: matrix(1,0,0,1,0,0);
+}
+.text input{
+    font-family: Candara;
+    position: absolute;
+    width: 342px;
+    left:0;
+    right: 0;
+    top: 325px;
+    margin: auto;
+    border: none;
+    height: 30px;
+    font-family: Candara;
+	font-style: normal;
+	font-size: 15px;
+    font-weight: bold;
+	color: rgba(4,12,67,1);
+    background-color: rgba(162,162,168,1);
+    outline: none;
+}  
+
+.pw input{
+    font-family: Candara;
+    position: absolute;
+    width: 342px;
+    left:0;
+    right: 0;
+    top: 410px;
+    margin: auto;
+    border: none;
+    height: 30px;
+    font-family: Candara;
+	font-style: normal;
+	font-size: 15px;
+    font-weight: bold;
+	color: rgba(4,12,67,1);
+    background-color: rgba(162,162,168,1);
+    outline: none;
+}
+
+input[type="submit"]{
+    filter: drop-shadow(0px 4px 5px rgba(19, 19, 63, 1));
+    position: absolute;
+	overflow: visible;
+	width: 337px;
+	height: 55px;
+	left: 0;
+    right: 0;
+	top: 540px;
+    margin: auto;
+    border-radius: 25px;
+    font-family: Candara;
+	font-style: normal;
+	font-size: 15px;
+    font-weight: bold;
+    color:rgba(4,12,67,1);
+    background:rgba(162,162,168,1);
+    cursor: pointer;
+    outline: none;
+}
+
+.signup{
+    position: absolute;
+    right: 0;
+    top:630px;
+    margin: auto;
+    left:44%;
+    font-family: Candara;
+	font-style: normal;
+	font-size: 15px;
+    font-weight: bold;
+    color:rgba(4,12,67,1);
+}
+.signup a{
+    color:rgb(0, 6, 43);
+}
+

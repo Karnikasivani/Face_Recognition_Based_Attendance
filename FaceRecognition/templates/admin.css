@@ -1,0 +1,197 @@
+.mediaViewInfo {
+	--web-view-name: Web 1280 – 1;
+	--web-view-id: Web_1280__1;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1280__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.Web_1280__1_Class {
+	position: absolute;
+	width: 1280px;
+	height: 800px;
+	background: linear-gradient(359.6deg, rgba(1,0,55,1) 0%, rgba(56,56,79,1) 100%);
+	overflow: hidden;
+	--web-view-name: Web 1280 – 1;
+	--web-view-id: Web_1280__1;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.Rectangle_1_Class {
+	fill: rgba(162,162,168,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	filter: drop-shadow(0px 3px 2px rgba(162, 162, 168, 1));
+	position: absolute;
+	overflow: visible;
+	width: 415px;
+	height: 616px;
+	left: 436px;
+	top: 118px;
+}
+.logo2x_Class {
+	mix-blend-mode: multiply;
+	position: absolute;
+	width: 350px;
+	height: 68px;
+	left: 465px;
+	top: 157px;
+	overflow: visible;
+}
+.ADMIN_LOGIN_Class {
+	left: 531px;
+	top: 257px;
+	position: absolute;
+	overflow: visible;
+	width: 201px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Candara;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 33px;
+	color: rgba(4,12,67,1);
+}
+.Line_1_Class {
+	fill: transparent;
+	stroke: rgba(4,12,67,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 342px;
+	height: 19px;
+	left: 478px;
+	top: 400px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Line_2_Class {
+	fill: transparent;
+	stroke: rgba(4,12,67,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 342px;
+	height: 19px;
+	left: 478px;
+	top: 515px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Register_no_Class {
+	left: 477px;
+	top: 372px;
+	position: absolute;
+	overflow: visible;
+	width: 86px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(4,12,67,1);
+}
+.Password_Class {
+	left: 478px;
+	top: 485px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(4,12,67,1);
+}
+.Rectangle_2_q_Class {
+	fill: url(#Rectangle_2_q);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2_q {
+	filter: drop-shadow(0px 4px 5px rgba(19, 19, 63, 1));
+	position: absolute;
+	overflow: visible;
+	width: 337px;
+	height: 55px;
+	left: 478px;
+	top: 592px;
+}
+.LOGIN_Class {
+	left: 611px;
+	top: 594px;
+	position: absolute;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(4,12,67,1);
+}
+.Forget_Password_Class {
+	left: 709px;
+	top: 540px;
+	position: absolute;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Admin1.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Segoe UI Historic;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,1,8,1);
+}
